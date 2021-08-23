@@ -44,6 +44,13 @@
   </url>
   
   <url>
+    <loc>https://qushuxian.github.io/books/index.html</loc>
+    
+    <lastmod>2021-07-20</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://qushuxian.github.io/categories/index.html</loc>
     
     <lastmod>2021-07-20</lastmod>
@@ -52,13 +59,6 @@
   
   <url>
     <loc>https://qushuxian.github.io/links/index.html</loc>
-    
-    <lastmod>2021-07-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://qushuxian.github.io/books/index.html</loc>
     
     <lastmod>2021-07-20</lastmod>
     
@@ -109,13 +109,6 @@
   </url>
   
   <url>
-    <loc>https://qushuxian.github.io/tags/hexo/</loc>
-    <lastmod>2021-08-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://qushuxian.github.io/tags/map/</loc>
     <lastmod>2021-08-23</lastmod>
     <changefreq>daily</changefreq>
@@ -124,6 +117,13 @@
   
   <url>
     <loc>https://qushuxian.github.io/tags/reduce/</loc>
+    <lastmod>2021-08-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://qushuxian.github.io/tags/hexo/</loc>
     <lastmod>2021-08-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

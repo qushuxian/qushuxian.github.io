@@ -6,7 +6,7 @@
   <link href="https://qushuxian.github.io/atom.xml" rel="self"/>
   
   <link href="https://qushuxian.github.io/"/>
-  <updated>2021-08-16T02:21:20.000Z</updated>
+  <updated>2021-10-25T08:35:32.000Z</updated>
   <id>https://qushuxian.github.io/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>多线程爬虫代理之随机获取UserAgent</title>
+    <link href="https://qushuxian.github.io/page/guidebook/random_user_agent/"/>
+    <id>https://qushuxian.github.io/page/guidebook/random_user_agent/</id>
+    <published>2021-10-25T08:35:32.000Z</published>
+    <updated>2021-10-25T08:35:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>自动获取爬虫的request请求头中的user-agent代理服务，提供IE浏览器、opera浏览器、chrome浏览器、firefox浏览器、safari浏览器的伪装代理服务。</p><span id="more"></span><br><br><br><p>该程序基于fake_useragent包进行的二次开发，需要先安装<code>pip install fake_useragent</code>，并自定义了get()函数，函数中设置number的用于主要是为了多线程爬虫使用，例如使用map进行并行计算等，具体代码如下：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> fake_useragent <span class="keyword">import</span> UserAgent</span><br><span class="line"><span class="keyword">import</span> random</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get</span>(<span class="params">number=<span class="literal">None</span></span>):</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    默认随机返回一组长度为number和1的UserAgent</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    :param number: 需要返回UserAgent的列表长度，默认7</span></span><br><span class="line"><span class="string">    :return:</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">    ua = UserAgent()</span><br><span class="line">    word = [ua.ie, ua.opera, ua.chrome, ua.firefox, ua.safari, ua.msie, ua.google]</span><br><span class="line">    <span class="keyword">if</span> number <span class="keyword">is</span> <span class="literal">None</span>:</span><br><span class="line">        user_agent_list = word</span><br><span class="line">        <span class="keyword">return</span> user_agent_list, random.choice(user_agent_list)</span><br><span class="line">    <span class="keyword">elif</span> <span class="built_in">int</span>(number) &gt; <span class="number">0</span>:</span><br><span class="line">        numbers = [n <span class="keyword">for</span> n <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">int</span>(number))]</span><br><span class="line">        user_agent_list = [random.choice(word) <span class="keyword">for</span> i <span class="keyword">in</span> numbers]</span><br><span class="line">        <span class="keyword">return</span> user_agent_list, random.choice(word)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;自动获取爬虫的request请求头中的user-agent代理服务，提供IE浏览器、opera浏览器、chrome浏览器、firefox浏览器、safari浏览器的伪装代理服务。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="爬虫" scheme="https://qushuxian.github.io/categories/%E7%88%AC%E8%99%AB/"/>
+    
+    
+    <category term="UserAgent" scheme="https://qushuxian.github.io/tags/UserAgent/"/>
+    
+    <category term="多线程" scheme="https://qushuxian.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python数据处理常用方法集合</title>
+    <link href="https://qushuxian.github.io/page/guidebook/python_def/"/>
+    <id>https://qushuxian.github.io/page/guidebook/python_def/</id>
+    <published>2021-09-14T02:42:52.000Z</published>
+    <updated>2021-09-14T02:42:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>请在此处阐明文章摘要方便文章列表页展现。</p><span id="more"></span><br><h1 id="pandas"><a class="markdownIt-Anchor" href="#pandas"></a> pandas</h1><h2 id=""><a class="markdownIt-Anchor" href="#"></a> </h2>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;请在此处阐明文章摘要方便文章列表页展现。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="文章分类" scheme="https://qushuxian.github.io/categories/%E6%96%87%E7%AB%A0%E5%88%86%E7%B1%BB/"/>
+    
+    
+    <category term="标签1" scheme="https://qushuxian.github.io/tags/%E6%A0%87%E7%AD%BE1/"/>
+    
+    <category term="标签2" scheme="https://qushuxian.github.io/tags/%E6%A0%87%E7%AD%BE2/"/>
+    
+  </entry>
   
   <entry>
     <title>python数据清洗之map和reduce函数的使用方法</title>

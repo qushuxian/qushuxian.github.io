@@ -1,3 +1,4 @@
+https://qushuxian.github.io/page/guidebook/openpyxl_beautiful_excel/
 https://qushuxian.github.io/page/guidebook/random_user_agent/
 https://qushuxian.github.io/page/guidebook/python_def/
 https://qushuxian.github.io/page/guidebook/map_reduce/

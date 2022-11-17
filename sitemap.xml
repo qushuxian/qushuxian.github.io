@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://qushuxian.github.io/page/MaxCompute/max_compute_udf/</loc>
+    <loc>https://qushuxian.github.io/page/guidebook/max_compute_udf/</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -86,14 +86,14 @@
   </url>
   
   <url>
-    <loc>https://qushuxian.github.io/books/index.html</loc>
+    <loc>https://qushuxian.github.io/categories/index.html</loc>
     
     <lastmod>2021-07-20</lastmod>
     
   </url>
   
   <url>
-    <loc>https://qushuxian.github.io/categories/index.html</loc>
+    <loc>https://qushuxian.github.io/books/index.html</loc>
     
     <lastmod>2021-07-20</lastmod>
     
@@ -165,13 +165,6 @@
   </url>
   
   <url>
-    <loc>https://qushuxian.github.io/tags/openpyxl/</loc>
-    <lastmod>2022-11-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://qushuxian.github.io/tags/map/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>daily</changefreq>
@@ -180,6 +173,27 @@
   
   <url>
     <loc>https://qushuxian.github.io/tags/reduce/</loc>
+    <lastmod>2022-11-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://qushuxian.github.io/tags/%E6%A0%87%E7%AD%BE1/</loc>
+    <lastmod>2022-11-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://qushuxian.github.io/tags/%E6%A0%87%E7%AD%BE2/</loc>
+    <lastmod>2022-11-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://qushuxian.github.io/tags/openpyxl/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -227,20 +241,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://qushuxian.github.io/tags/%E6%A0%87%E7%AD%BE1/</loc>
-    <lastmod>2022-11-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://qushuxian.github.io/tags/%E6%A0%87%E7%AD%BE2/</loc>
-    <lastmod>2022-11-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   
   <url>
@@ -265,13 +265,6 @@
   </url>
   
   <url>
-    <loc>https://qushuxian.github.io/categories/Excel/</loc>
-    <lastmod>2022-11-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://qushuxian.github.io/categories/python%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>daily</changefreq>
@@ -279,14 +272,21 @@
   </url>
   
   <url>
-    <loc>https://qushuxian.github.io/categories/%E7%88%AC%E8%99%AB/</loc>
+    <loc>https://qushuxian.github.io/categories/%E6%96%87%E7%AB%A0%E5%88%86%E7%B1%BB/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://qushuxian.github.io/categories/%E6%96%87%E7%AB%A0%E5%88%86%E7%B1%BB/</loc>
+    <loc>https://qushuxian.github.io/categories/Excel/</loc>
+    <lastmod>2022-11-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://qushuxian.github.io/categories/%E7%88%AC%E8%99%AB/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

@@ -1,3 +1,4 @@
+https://qushuxian.github.io/page/MaxCompute/max_compute_udf/
 https://qushuxian.github.io/page/guidebook/concat_excel/
 https://qushuxian.github.io/page/guidebook/openpyxl_beautiful_excel/
 https://qushuxian.github.io/page/guidebook/random_user_agent/
